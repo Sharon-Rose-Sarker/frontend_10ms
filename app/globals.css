@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+body {
+  font-feature-settings: "cv01", "cv03", "cv04", "cv06";
+  font-family: inherit;
+}
+
+.prose {
+  font-feature-settings: "cv01", "cv03", "cv04", "cv06";
+}
+
+.prose p, .prose div, .prose span {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  color: inherit !important;
+}
+
+section [dangerouslySetInnerHTML] * {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  color: inherit !important;
+}
+
+.faq-content * {
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+  font-size: inherit !important;
+  color: inherit !important;
+}
+
+[dangerouslySetInnerHTML] * {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  color: inherit !important;
+  font-weight: inherit !important;
+}
+
+.shadow-3xl {
+  box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 6s ease infinite;
+}
