@@ -1,4 +1,4 @@
-# IELTS Course Frontend Assessment
+# Frontend Assessment
 
 ## How to run 
 
@@ -8,6 +8,3 @@
 4. Run `npm start`
 5. Open http://localhost:3000
 
-## Via Docker
-
-Build image:
